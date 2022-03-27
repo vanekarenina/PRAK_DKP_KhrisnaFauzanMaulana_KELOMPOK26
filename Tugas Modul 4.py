@@ -4,7 +4,6 @@ class   mtd_tiket:
 
         self.tiket = tiket 
 
-
     def identitas(kelompok): 
 
         print("\nKelompok\t:",(kelompok)) 
