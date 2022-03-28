@@ -30,3 +30,15 @@ def pemesanan():
     print("\nE-Ticket Anda Akan Dikirimkan Melalui Email", email) 
     print("\n<<<Tetap Patuhi Protokol Kesehatan>>>") 
     print("-----------------------------------------------") 
+rute= int(input("\nMasukan Pilihan Rute : "))
+if (rute == 1):
+    harga = 700000
+    pemesanan()
+elif (rute == 2):
+    harga = 600000
+    pemesanan()
+elif (rute == 3):
+    harga = 500000
+    pemesanan()
+else:
+    print("\n**Pilihan Rute Belum Tersedia**")
